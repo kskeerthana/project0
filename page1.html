@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tags</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+			@media screen and (max-width: 992px) {
+				.container1{
+					flex: 50%;
+				}
+			}
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+            .container1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .container1 > div {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 40px;
+                padding: 40px;
+                width: 250px;
+            }
+            a{
+            	font-size: 40px;
+                margin: 40px;
+                font
+            }
+            a::before {
+                content: "\21d2 : ";
+                font-weight: bold;
+            
+            }
+            }
+        </style>	
+</head>
+<body>
+	<div class="container">
+	  	<div class="row">
+	    	<div class="col-sm">
+	      		HTML
+	    	</div>
+	    	<div class="col-sm">
+	     		CSS
+	    	</div>
+	    	<div class="col-sm">
+	      		Bootstrap
+	    	</div>
+	    	<div class="col-sm">
+	      		SCSS
+	    	</div>
+	  	</div>
+	</div>
+	<div class="container1">
+            <div> <b>!DOCTYPE : </b>	Defines the document type <br>
+					<b>html:</b>	Defines an HTML document<br>
+					<b>head :</b>	Contains metadata/information for the document<br>
+					<b>title:</b>	Defines a title for the document<br>
+					<b>body:</b>	Defines the document's body</div>
+            <div> <b>h1 to h6:</b>	Defines HTML headings<br>
+					<b>p :</b>	Defines a paragraph<br>
+					<b>br :</b>	Inserts a single line break<br>
+					<b>hr:</b>	Defines a thematic change in the content<br>
+					<b>!--...--! :</b>	Defines a comment</div>
+            <div><b> b -</b> Bold text<br>
+<b>strong</b> - Important text<br>
+<b> i </b> - Italic text<br>
+<b>em</b> - Emphasized text<br>
+<b>mark</b> - Marked text<br>
+</div>
+            <div><b>small</b> - Smaller text<br>
+<b> del </b> - Deleted text<br>
+<b> ins </b> - Inserted text<br>
+<b> sub </b> - Subscript text<br>
+<b> sup </b> - Superscript text<br></div>
+            <div><b>align-items</b> - 	Specifies the alignment for items inside a flexible container<br>
+            	<b>animation-delay	</b>Specifies a delay for the start of an animation<br>
+            	<b>background-image</b>	Specifies one or more background images for an element<br>
+            	<b>border-collapse</b>	Sets whether table borders should collapse into a single border or be separated<br>
+            	<b>box-shadow</b>	Attaches one or more shadows to an element<br>
+            </div>
+            <div><b>column-span</b>	Specifies how many columns an element should span across<br>
+            <b>display</b>	Specifies how a certain HTML element should be displayed<br>
+            <b>flex-wrap</b>	Specifies whether the flexible items should wrap or not<br>
+            <b>@font-face</b>	A rule that allows websites to download and use fonts other than the "web-safe" fonts<br>
+			<b>font-family</b>	Specifies the font family for text<br>
+			<b>@media</b>	Sets the style rules for different media types/devices/sizes<br>
+        	</div>
+            <div>
+            	<b>:active</b>		Selects the active  <br>
+				<b>::after</b>	Insert something after the content of each paragraph element<br>
+				<b>::before </b> Insert something before the content of each paragraph element<br>
+				<b>:checked</b>		Selects every checked input element<br>
+				<b>:hover</b> Selects links on mouse over<br>
+				<b>:link</b>	Selects all unvisited links<br>
+            	<b>:optional</b> Selects input elements with no "required" attribute<br>
+            </div>
+            <div>
+            	<b>:read-only</b> Selects input elements with the "readonly" attribute specified<br>
+				<b>:out-of-range</b> Selects input elements with a value outside a specified range<br>
+				<b>::placeholder</b> Selects input elements with the "placeholder" attribute specified<br>
+				<b>:required</b> Selects input elements with the "required" attribute specified<br>
+				<b>:root</b> Selects the document's root element<br>
+				<b>::selection</b>	Selects the portion of an element that is selected by a user<br>
+				<b>:visited</b>	Selects all visited links<br>
+            </div>
+            <div><b>alert-primary</b>A simple primary alert <br>
+            	<b>alert-success</b>A simple suscess alert<br>
+            	<b>alert-danger</b>A simple danger alert<br>
+            	<b>badge-light</b>Shows unread notifications<br>
+            	<b>.badge-pill</b>modifier class to make badges more rounded<br>
+            	<b>Breadcrumb</b>Indicate the current page’s location within a navigational hierarchy<br>
+            </div>
+            <div><b>.collapse</b> hides content<br>
+			<b>.collapsing </b> applied during transitions<br>
+			<b>.collapse.show</b>shows content<br>
+			<b>dropdown('toggle')</b>	Toggles the dropdown menu of a given navbar or tabbed navigation.<br>
+			<b>dropdown('update')</b>	Updates the position of an element’s dropdown.<br>
+			<b>dropdown('dispose')</b>	Destroys an element’s dropdown.<br>
+			</div>
+            <div><b>col-{breakpoint}-auto</b> to size columns based on the natural width of their content.<br>
+            <b>.col-sm-* </b> creates a basic grid system
+            <b>.no-gutters</b>gutters between columns in our predefined grid classes can be removed <br>
+            <b>.order</b> controlling the visual order of your content<br>
+            <b> .offset-md-*</b>Move columns to the right <br>
+            <b>.mr-auto</b> force sibling columns away from one another
+            </div>
+            <div>
+            	<b>.w-100</b>equal-width columns that span multiple rows<br>
+            	<b>.container </b>for a responsive pixel<br>
+            	<b>.container-fluid</b> for width: 100% across all viewport and device sizes.<br>
+            	<b>padding</b> for controlling the space between them<br>
+            </div>
+            <div>
+            	<b>$grid-columns</b> used to generate the widths (in percent) of each individual column <br>
+            	<b>$grid-gutter-width</b> sets the width for the column gutters<br>
+            	<b>$grid-breakpoints</b>customize the number of grid tiers<br>
+            	<b>$container-max-widths</b>customize the number of grid tiers<br>
+            </div>
+        </div>
+        <a href="index.html">Go back</a>
+</body>
+</html>
